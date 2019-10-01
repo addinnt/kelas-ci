@@ -31,8 +31,8 @@ class Login extends CI_Controller
 
     public function prosess_login()
     {
-        $username = $this->input->post('uname1');
-        $password = $this->input->post('pwd1');
+        $username = htmlspecialchars($this->input->post('uname1'));
+        $password = htmlspecialchars($this->input->post('pwd1'));
 
         $cek_login = $this->login_model->login($username, $password);
 
