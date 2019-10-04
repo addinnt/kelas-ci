@@ -4,6 +4,7 @@
     <div class="card">
         <div class="card-header">
            <b>Form Tambah Data Siswa</b>
+           <b>Tambahkan data siswa disini</b>
         </div>
         <div class="card-body">
             <!-- $this->form_validation->set_message('rule,'eror message'); -->
